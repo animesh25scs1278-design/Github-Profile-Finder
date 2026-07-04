@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+label {
+  margin: 20px 0px 20px 20px;
+  padding: 10px;
+}
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+button {
+  margin-left: 10px;
+  box-shadow: 5px 5px 10px 5px #238636;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #2ea043;
+  transform: scale(1.05);
+}
+.stats {
+  display: flex;
+  gap: 40px;
+  transition: 0.3s;
+} 
+.stat-box{
+    transition: 0.3s;
+}
+.stat-box:hover {
+  transform: translateY(-5px);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+#Profile-Card {
+  display: none;
+  flex-direction: column;
+  background: #161b22;
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+  animation:
+    fadeIn 0.5s ease,
+    slideUp 0.5s ease-out;
+  gap: 10px;
+}
+#avatar {
+  box-shadow: 0px 0px 8px white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+#avatar:hover {
+  transform: scale(1.07);
+}
