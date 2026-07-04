@@ -3,7 +3,7 @@ A responsive GitHub Profile Finder built with HTML, CSS, and JavaScript using th
 This project was built using **HTML, CSS, and JavaScript** to strengthen my understanding of DOM manipulation, asynchronous JavaScript, Fetch API, and REST APIs.
 
 ## Live Demo
-🔗 Add your deployed website link here
+🔗 https://github-profile-finder-animesh.netlify.app/
 
 ## Features:
 - 🔍 Search any public GitHub username
